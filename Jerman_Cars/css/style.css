@@ -342,6 +342,28 @@ section>.container-fluid {
   }
 }
 
+/* header-contact-details */
+
+.header-contact-details{
+  background-color: var(--theme-color1);
+  display: flex;
+  justify-content: flex-end;
+  padding: .5rem;
+}
+
+.header-contact-details > div{
+  display: flex;
+  gap: 1rem;
+}
+
+/* footer-contact-details */
+.footer-contact-details > a{
+
+  color: white;
+
+
+}
+
 /*=== Default Form ===*/
 .form-control,
 .input-text {
